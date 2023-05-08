@@ -1,0 +1,8 @@
+rootProject.name = 'mes-equipment-addon'
+
+include 'mes-equipment'
+include 'mes-equipment-starter'
+
+rootProject.children.each { p1 ->
+    p1.buildFileName = "${p1.name}.gradle"
+}

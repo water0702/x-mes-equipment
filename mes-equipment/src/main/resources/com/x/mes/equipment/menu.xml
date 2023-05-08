@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/ui/menu">
+
+    <menu id="EQUIP" caption="msg://com.x.mes.equipment/menu.addon">
+        <item screen="EQUIP_Equipment.browse"
+              caption="msg://com.x.mes.equipment.ui.screen.equipment/equipmentBrowse.menu"/>
+        <item screen="EQUIP_EquipmentClass.browse"
+              caption="msg://com.x.mes.equipment.ui.screen.equipmentclass/equipmentClassBrowse.menu"/>
+    </menu>
+
+</menu-config>
